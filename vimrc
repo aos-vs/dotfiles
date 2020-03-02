@@ -1,0 +1,30 @@
+set number
+set wrap
+set showmode
+set title
+set hidden
+set textwidth=79
+
+set cursorline
+set undofile
+
+set sts=2
+let &shiftwidth=&sts
+set expandtab
+
+set hlsearch
+set incsearch
+set smartcase
+
+inoremap jk <Esc>
+
+noremap H ^
+nnoremap L $
+onoremap L $
+vnoremap L g_
+
+nnoremap <BS> <C-^>
+
+set nocp
+syntax on
+filetype plugin indent on
