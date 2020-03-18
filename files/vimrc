@@ -6,7 +6,6 @@ set hidden
 set textwidth=79
 
 set cursorline
-set undofile
 
 set sts=2
 let &shiftwidth=&sts
